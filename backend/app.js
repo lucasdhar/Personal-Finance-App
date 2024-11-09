@@ -7,6 +7,7 @@ const app = express()
 require('dotenv').config()
 
 const PORT = process.env.PORT
+const cors = require('cors');
 
 //middlewares
 app.use(express.json())

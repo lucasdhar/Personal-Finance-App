@@ -1,5 +1,5 @@
-const { addExpense, getExpense, deleteExpense } = require('../controllers/expense');
-const { addIncome, getIncomes, deleteIncome } = require('../controllers/income');
+const { addExpense, getExpense, deleteExpense } = require('../controllers/Expense');
+const { addIncome, getIncomes, deleteIncome } = require('../controllers/Income');
 
 const router = require('express').Router();
 
